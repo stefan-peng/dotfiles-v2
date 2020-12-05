@@ -219,14 +219,14 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-font "Fantasque Sans Mono 13"
+font Terminus
 #
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    font "Fantasque Sans Mono 13"
+    font Terminus
 
     swaybar_command waybar
 }
